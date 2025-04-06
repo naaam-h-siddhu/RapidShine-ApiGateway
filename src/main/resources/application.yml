@@ -15,6 +15,11 @@ spring:
             predicates:
               - Path=/car/**
 
+          - id: booking_service
+            uri: http://localhost:8083
+            predicates:
+              - Path=/booking/**
+
 server:
   port: 8080
 
