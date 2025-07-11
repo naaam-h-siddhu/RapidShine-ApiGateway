@@ -1,5 +1,7 @@
 spring:
   application:
     name: car-wash-api-gateway
+
   config:
-    import: configserver:http://localhost:8888
+    import: configserver:http://51.20.80.4:8888
+
